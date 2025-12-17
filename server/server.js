@@ -14,7 +14,7 @@ const groq = new Groq({
 // Middleware
 
 app.use(cors({
-  origin: "https://code-explainer-app.netlify.app/",
+  origin: "https://code-explainer-app.netlify.app",
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],allowedHeaders: ["Content-Type", "Authorization"],     
   credentials: true
 }));
